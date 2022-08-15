@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    border: 1px solid;
+    width: 100%;
+    margin: 50px 0;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 40px;
+    font-size: 50px;
+    letter-spacing: .1em;
+}
+.img{
+    position: absolute;
+    display: flex;
+    margin: 40px 1000px;
+    width: 200px;
+    height: 200px;
+    text-transform: uppercase;
+    background-color: rgba(128, 128, 128, 0.185);
+    border-radius: 2px;
+    border: 1px solid;
+    align-items: center;
+    justify-content: center;
+}
+.file-upload-input{
+    margin: -10px 0;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+    cursor: pointer;
+}
+td{
+    margin: 20px;
+    font-weight: 700;
+    padding: 5px;
+}
+td span{
+    margin: 69px;
+}
+.name{
+    margin: 0px 152px;
+}
+.nameput{
+    margin: 0 -133px;
+}
+.perma{
+    margin: 0px 45px;
+}
+.permaput{
+    margin: 0 -25px;
+}
+input{
+    margin: 0px -50px;
+    width: 300px;
+    border: none;
+    font-size: 18px;
+}
+.date{
+    padding: 41px;
+}
+.dateput{
+    margin: 0 -80px;
+    text-decoration: none;
+}
+.stat{
+    padding: 50px;
+}   
+.statput{
+    margin: 0 -88px;
+}
+.citi{
+    padding: 51.9px;
+}
+.citiput{
+    margin: 0 -88px;
+}
+.place{
+    padding: 34px;
+}
+.placeput{
+    margin: 0 -70px;
+}
+.noffather{
+    padding: 20px;
+}
+.fatherput{
+    margin: 0 -55px;
+}
+.nofmother{
+    padding: 15.5px;
+}
+.motherput{
+    margin: 0 -50px;
+}
+.address{
+    padding: 73px;
+}
+.addressput{
+    margin: 0 -108px;
+    width: 600px;
+}
+.Dialects{
+    padding: 113px;
+}
+.Dialectsput{
+    margin: 0 -150px;
+}
+.reliq{
+    position: absolute;
+    margin: -450px 700px;
+    width: 500px;
+}
+.ages{
+    position: absolute;
+    margin: -400px 700px;
+    width: 600px;
+}
+.taon{
+    padding: 42px;
+}
+.taonput{
+    margin: 0 -82.2px;
+}
+.weight{
+    position: absolute;
+    margin: -350px 700px;
+    width: 500px;
+}
+.timbang{
+    padding: 18px;
+}
+.timbangput{
+    margin: 0 -58px;
+}
+.height{
+    position: absolute;
+    margin: -300px 700px;
+    width: 500px;
+}
+.tangkad{
+    padding: 18px;
+}
+.tangkadput{
+    margin: 0 -58px;
+}
+
+/* educational Background */
+.educ{
+    text-transform: uppercase;
+    text-decoration: underline .5px solid;
+    font-size: 20px;
+    padding: 30px 0;
+}
+.eleme{
+    padding: 18px;
+}
+.elemput{
+    margin: 0 -57.5px;
+    width: 470px;
+}
+.hschput{
+    width: 470px;
+}
+.college1{
+    padding: 10px 5px;
+}
+.college11{
+    padding: 44px;
+}
+.college111{
+    margin:0 -84px;
+    width: 470px;
+
+}
+.college2{
+    padding: 10px 5px;
+}
+.college22{
+    padding: 44px;
+}
+.college222{
+    margin: -84px;
+    width: 470px;
+}
+.special{
+    width: 500px; 
+}
+
+/* Graduated */
+.Graduated{
+    position: absolute;
+    margin: -265px 700px;
+    width: 600px;
+}
+.Graduated1{
+    margin: 0 35px
+}
+.Graduated2{
+    position: absolute;
+    margin: -210px 700px;
+    width: 600px;
+}
+.Graduated22{
+    margin: 0 35px
+}
+.Graduated3{
+    position: absolute;
+    margin: -155px 700px;
+    width: 600px;
+}
+.Graduated33{
+    margin: 0 35px
+}
+
+/* Record */
+.Record{
+    text-transform: uppercase;
+    text-decoration: underline .5px solid;
+    font-size: 20px;
+    padding: 30px 0 0;
+}
+.Company{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.Companyput{
+    margin: 10px;
+    width: 400px;
+}
+.Position{
+    font-size: 20px;
+    position: absolute;
+    margin: -70px 520px;
+    width: 500px;
+    text-transform: uppercase;
+}
+.Positionput{
+    margin: 10px;
+    width: 300px;
+}
+.year{
+    font-size: 20px;
+    position: absolute;
+    margin: -60px 940px;
+    width: 400px;
+    text-transform: uppercase;
+}
+.yearput{
+    width: 150px;
+    margin: 0 10px;
+}
+.numb1{
+    margin: -10px 10px;
+    width: 400px;
+}
+.numb2{
+    margin: 0 10px;
+    width: 400px;
+}
+/* Character References */
+.References{
+    text-transform: uppercase;
+    text-decoration: underline .5px solid;
+    font-size: 20px;
+    padding: 30px 0 0;
+}
+.refename{
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+.refenameput{
+    margin: 0 10px;
+    width: 400px;
+}
+.refetion{
+    font-size: 20px;
+    position: absolute;
+    margin: -50px 520px;
+    width: 500px;
+    text-transform: uppercase;
+}
+.repositionput{
+    margin: 10px;
+    width: 300px;
+}
+.cantact{
+    text-transform: uppercase;
+    font-size: 20px;
+    position: absolute;
+    margin: -40px 940px;
+    width: 500px;
+}
+.contput{
+    width: 159px;
+    margin: 0 10px;
+}
+/* signature */
+
+.signature{
+    display: flex;
+}
+.signature h3{
+    margin: 90px 100px ;
+}
+.signa{
+    position: absolute;
+    margin: 50px 50px;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    text-decoration: .5px solid underline;
+}
+
+/* submit */
+
+.submit{
+    position: absolute;
+    background-color: rgba(165, 162, 162, 0.678);
+    margin: -200px 1000px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
